@@ -38,7 +38,7 @@
 
 ### VSCode setting.json
 
-```json
+```javascript
 {
     // editor 是针对vscode的风格设置
     "editor.tabSize": 2,
@@ -106,6 +106,7 @@
         }
     },
     "vetur.format.defaultFormatter.js": "vscode-typescript",
+    // prettier 格式化配置
     "prettier.tabWidth": 2,
     "prettier.semi": true,
     "prettier.printWidth": 200,
