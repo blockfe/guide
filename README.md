@@ -11,7 +11,12 @@
 ## Guide IDE
 
 推荐使用VSCode，统一Code格式化配置，避免团队小伙伴之间因IDE配置(EditorConfig、Prettier、Vetur...)不同而造成的Commit污染，且保存文件时自动进行ESlint校验，及时发现问题并处理修复。
-(安装：Settings Sync插件可同步VSCode配置)
+
+### 使用Settings Sync插件同步配置和插件
+
+- 1.VSCode安装Settings Sync
+- 2.配置Sync:Gist为4d5da52c0c4cff63bd677d62bbbf4433
+- 3.Shift+Command+P -> Sync: Download Settings
 
 ### VSCode Plugins
 
