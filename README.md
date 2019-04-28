@@ -12,13 +12,15 @@
 
 推荐使用VSCode，统一Code格式化配置，避免团队小伙伴之间因IDE配置(EditorConfig、Prettier、Vetur...)不同而造成的Commit污染，且保存文件时自动进行ESlint校验，及时发现问题并处理修复。
 
-### 使用Settings Sync插件同步配置和插件
+### 一、自动：使用Settings Sync插件同步配置和插件
 
-- 1.VSCode安装Settings Sync
-- 2.配置Sync:Gist为4d5da52c0c4cff63bd677d62bbbf4433
-- 3.Shift+Command+P -> Sync: Download Settings
+1. VSCode安装Settings Sync
+2. 配置Sync:Gist为4d5da52c0c4cff63bd677d62bbbf4433
+3. Shift+Command+P -> Sync: Download Settings
 
-### VSCode Plugins
+### 二、手动：安装Plugins和修改Setting.json
+
+#### VSCode Plugins
 
 - **One Dark Pro** 主题
 - **VSCode Great Icons** 图标主题
@@ -43,7 +45,9 @@
 - **Settings Sync** 用于同步VSCode配置，多台电脑一份配置
 - **markdownlint** 书写md文件的预览插件
 
-### VSCode setting.json
+#### VSCode Setting.json
+
+Shift+Command+P -> Open Settings(JSON)
 
 ```javascript
 {
