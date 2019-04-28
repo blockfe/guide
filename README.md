@@ -17,6 +17,7 @@
 
 - **One Dark Pro** 主题
 - **VSCode Great Icons** 图标主题
+- **FiraCode** 字体[https://github.com/tonsky/FiraCode]
 - **Bracket Pair Colorizer** 每一对括号用不同颜色区别 （括号强迫症必备）
 - **Code Runner** node，python等代码不必开命令行即可运行
 - **Code Spell Checker** 单词拼写检测
