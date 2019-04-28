@@ -11,6 +11,7 @@
 ## Guide IDE
 
 推荐使用VSCode，统一Code格式化配置，避免团队小伙伴之间因IDE配置(EditorConfig、Prettier、Vetur...)不同而造成的Commit污染，且保存文件时自动进行ESlint校验，及时发现问题并处理修复。
+(安装：Settings Sync插件可同步VSCode配置)
 
 ### VSCode Plugins
 
@@ -33,7 +34,7 @@
 - **Import Cost** 在编辑器中显示导入/需要包大小
 - **Prettier** 格式化，使用标准风格，快捷键 alt+shift+F
 - **Vetur** 添加对.vue后缀文件的快速书写支持。
-- **Settings Sync** 用于同步VSCode配置，多台电脑一份配置（相对而言配置复杂，可不安装）
+- **Settings Sync** 用于同步VSCode配置，多台电脑一份配置
 - **markdownlint** 书写md文件的预览插件
 
 ### VSCode setting.json
@@ -152,7 +153,9 @@
         "suppressShowKeyBindingsNotice": true,
         "suppressUpdateNotice": true,
         "suppressWelcomeNotice": false
-    }
+    },
+    // git配置sync同步
+    "sync.gist": "4d5da52c0c4cff63bd677d62bbbf4433"
 }
 ```
 
