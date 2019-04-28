@@ -8,7 +8,9 @@
 - [Vue Guide](https://cn.vuejs.org/v2/style-guide/)
 - [Git Commit Message](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
 
-## Guide Style
+## Guide IDE
+
+推荐使用VSCode，统一Code格式化配置，避免团队小伙伴之间因IDE配置(EditorConfig、Prettier、Vetur...)不同而造成的Commit污染，且保存文件时自动进行ESlint校验，及时发现问题并处理修复。
 
 ### VSCode Plugins
 
@@ -29,12 +31,10 @@
 - **Color Highlight** 在编辑器中显示颜色色块
 - **Path Intellisense** 路径识别苦战，比如书写图片路径时。遗憾就是，对webpack项目中的路径别名无法扩展
 - **Import Cost** 在编辑器中显示导入/需要包大小
-- **Prettier** 格式化，使用标准风格，快捷键 alt+shift +F
+- **Prettier** 格式化，使用标准风格，快捷键 alt+shift+F
 - **Vetur** 添加对.vue后缀文件的快速书写支持。
 - **Settings Sync** 用于同步VSCode配置，多台电脑一份配置（相对而言配置复杂，可不安装）
 - **markdownlint** 书写md文件的预览插件
-
-
 
 ### VSCode setting.json
 
@@ -76,6 +76,7 @@
         "**/yarn.lock": true,
         "**/tmp": true
     },
+    /** Necessary configuration - START **/
     // vscode 默认格式化插件
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -136,6 +137,7 @@
         "typescript",
         "typescriptreact"
     ],
+    /** Necessary configuration - END **/
     // git是否启用自动拉取
     "git.autofetch": false,
     // 配置gitlen中git提交历史记录的信息显示情况
@@ -150,8 +152,19 @@
         "suppressShowKeyBindingsNotice": true,
         "suppressUpdateNotice": true,
         "suppressWelcomeNotice": false
-    },
-    // git配置sync同步
-    "sync.gist": "4d5da52c0c4cff63bd677d62bbbf4433"
+    }
 }
+```
+
+### .editorconfig
+
+```javascript
+root = true
+
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
 ```
