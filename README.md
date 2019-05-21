@@ -165,7 +165,10 @@ Shift+Command+P -> Open Settings(JSON)
         "suppressWelcomeNotice": false
     },
     // git配置sync同步
-    "sync.gist": "4d5da52c0c4cff63bd677d62bbbf4433"
+    "sync.gist": "4d5da52c0c4cff63bd677d62bbbf4433",
+    "files.associations": {
+        "*.css": "postcss"
+    }
 }
 ```
 
