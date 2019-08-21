@@ -8,12 +8,12 @@
 
 **使用到的工具：**
 
-- [editorConfig 编辑器配置文件](##editorConfig)
-- [Prettier 批量格式化代码](##Prettier)
-- [Eslint js、vue 文件代码检查规范](##Eslint)
-- [Stylelint css 文件检查](##Stylelint)
-- [lint-staged 提交到git之前跑一次代码检查](##lint-staged)
-- [VSCode 配置和插件](##VSCode)
+- [editorConfig 编辑器配置文件](#editorConfig)
+- [Prettier 批量格式化代码](#Prettier)
+- [Eslint js、vue 文件代码检查规范](#Eslint)
+- [Stylelint css 文件检查](#Stylelint)
+- [lint-staged 提交到git之前跑一次代码检查](#lint-staged)
+- [VSCode 配置和插件](#VSCode)
 
 ## editorConfig
 
