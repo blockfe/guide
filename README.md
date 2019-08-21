@@ -46,8 +46,6 @@ Prettier可以在保存文件的时候可以自动统一风格。
 
 ```javascript
 {
-  "eslintIntegration": true,
-  "stylelintIntegration": true,
   "tabWidth": 2,
   "semi": true,
   "singleQuote": true,
